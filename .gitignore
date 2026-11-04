@@ -1,0 +1,75 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+.pytest_cache/
+
+# Node / Frontend
+node_modules/
+.pnp
+.pnp.js
+coverage/
+.next/
+out/
+build/
+*.tsbuildinfo
+.npm
+.eslintcache
+
+# Vite
+dist/
+dist-ssr/
+*.local
+
+# Environment & Secrets
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Databases & local storage
+*.sqlite
+*.sqlite3
+*.db
+backend/storage/snapshots/*.jpg
+backend/storage/snapshots/*.png
+!backend/storage/snapshots/.gitkeep
+backend/storage/reports/*.pdf
+!backend/storage/reports/.gitkeep
+
+# Models
+*.pt
+*.onnx
+backend/cv_engine/models/*.pt
+backend/cv_engine/models/*.onnx
+!backend/cv_engine/models/.gitkeep
+
+# IDEs & OS
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
